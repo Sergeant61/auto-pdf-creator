@@ -1,0 +1,246 @@
+{
+  "documentOptions": {
+    "size": "A4",
+    "margins": {
+      "top": 10,
+      "left": 20,
+      "bottom": 30,
+      "right": 30
+    },
+    "margin": 50,
+    "info": {
+      "Producer": "Kurtyapı Hafriyat İnşaat ve Gıda San. Tic. Ltd. Şti.",
+      "Creator": "Kurtyapı Hafriyat İnşaat ve Gıda San. Tic. Ltd. Şti.",
+      "Title": "Kurtyapı Hafriyat İnşaat ve Gıda San. Tic. Ltd. Şti. Hakediş Raporu",
+      "Author": "Kurtyapı Hafriyat İnşaat ve Gıda San. Tic. Ltd. Şti."
+    }
+  },
+  "content": [
+    {
+      "text": "Bu bir testtir"
+    },
+    {
+      "image": {
+        "options": {
+          "fit": [
+            100,
+            100
+          ]
+        },
+        "url": "https://c8.alamy.com/comp/FC32NF/ayran-FC32NF.jpg"
+      },
+      "margin": [
+        0,
+        10,
+        10,
+        10
+      ],
+      "width": 50,
+      "height": 100
+    },
+    {
+      "text": "Bu bir testtir",
+      "margin": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "fontType": "light",
+      "fontSize": 20
+    },
+    {
+      "text": "Bu bir testtir"
+    },
+    {
+      "fontType": "light",
+      "list": [
+        "Araba 1",
+        "Araba 1",
+        "Araba 1"
+      ],
+      "margin": 10
+    },
+    {
+      "x": 30,
+      "margin": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "table": {
+        "options": {
+          "dash": {
+            "length": 4,
+            "space": 2
+          },
+          "cellMargin": 5,
+          "maxWidth": 400
+        },
+        "height": 30,
+        "widths": [
+          100,
+          "*",
+          100,
+          "*"
+        ],
+        "body": [
+          [
+            "Teklif No",
+            "",
+            "Tarih",
+            "123"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            "121"
+          ],
+          [
+            "Kimden",
+            "Ömer KURT",
+            "Kime",
+            "to"
+          ],
+          [
+            "Tele Fax No",
+            "",
+            "Email/Tel",
+            {
+              "text": "recepozen.com11111",
+              "justify": "bottom"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "margin": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "table": {
+        "options": {
+          "justify": "top",
+          "align": "left",
+          "cellMargin": 5
+        },
+        "height": 30,
+        "widths": [
+          100,
+          "*",
+          100,
+          "*"
+        ],
+        "header": [
+          [
+            {
+              "text": "1",
+              "fillColor": "red",
+              "fillOpacity": 0.1
+            },
+            {
+              "text": "2",
+              "fillColor": "red",
+              "fillOpacity": 0.1
+            },
+            {
+              "text": "3",
+              "fillColor": "red",
+              "fillOpacity": 0.1
+            },
+            {
+              "text": "4",
+              "fillColor": "red",
+              "fillOpacity": 0.1
+            }
+          ]
+        ],
+        "footer": [
+          [
+            "",
+            "",
+            "",
+            "3"
+          ]
+        ],
+        "body": [
+          [
+            "Teklif No",
+            {
+              "text": "emine özen",
+              "align": "right"
+            },
+            "Tarih",
+            ""
+          ],
+          [
+            "Firma",
+            "Kurtyapı Hafriyat",
+            "Firma",
+            ""
+          ],
+          [
+            "Kimden",
+            "Ömer KURT",
+            {
+              "image": {
+                "url": "https://c8.alamy.com/comp/FC32NF/ayran-FC32NF.jpg"
+              }
+            },
+            "Kime"
+          ],
+          [
+            "Tele Fax No",
+            {
+              "list": [
+                "Araba 1",
+                "Araba 1",
+                "Araba 1"
+              ]
+            },
+            "Email/Tel",
+            {
+              "text": "recepozenewevw.evwevwevw.com111111",
+              "justify": "center"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

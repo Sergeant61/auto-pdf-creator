@@ -1,0 +1,41 @@
+{
+  "name": "auto-pdf-creator",
+  "version": "0.1.2",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "homepage": "https://github.com/Sergeant61/auto-pdf-creator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sergeant61/auto-pdf-creator.git"
+  },
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Recep Özen",
+    "email": "rec1856rec@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/base64-stream": "^1.0.3",
+    "@types/node": "^17.0.21",
+    "@types/pdfkit": "^0.12.12",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "base64-stream": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "image-size": "^1.0.2",
+    "node-fetch": "^3.2.2",
+    "pdfkit": "^0.13.0"
+  }
+}
